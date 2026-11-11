@@ -1,8 +1,9 @@
-# Nexo Assist — Agent Inteligente do Service Desk de TI
+# Nexo Assist — Agente Inteligente de Service Desk & Suporte de TI
 
-> **Desafio Técnico Beyond the Bytes** · Desenvolvido com base no PRD e no protótipo de alta fidelidade (`nexo.pen`).
+> 🚀 **Aplicação em Produção (Live Demo):** [desafio-nexo-assist-iota.vercel.app](https://desafio-nexo-assist-iota.vercel.app/chat)  
+> *(Acesso direto com usuários de demonstração pré-configurados no login para teste imediato de todos os fluxos)*
 
-O **Nexo Assist** é um assistente conversacional orientado a agentes (IA) desenhado para o Service Desk da Nexo (~2.000 funcionários). Ele automatiza a triagem e o atendimento de primeiro nível, consultando a Central de Ajuda, abrindo/atualizando chamados com cálculo rigoroso de SLA e transferindo atendimentos críticos para analistas humanos com histórico completo.
+O **Nexo Assist** é uma plataforma conversacional orientada a agentes inteligentes de IA desenhada para automatizar o Service Desk e Suporte de TI. Ele realiza triagem automatizada, consulta bases de conhecimento, abre e atualiza chamados com cálculo dinâmico de SLA e escalona atendimentos críticos para analistas humanos com transferência de contexto e histórico completo.
 
 ---
 
@@ -29,7 +30,7 @@ npm run dev
 
 A aplicação estará disponível em **`http://localhost:3000`**.
 
-> **Nota para os Avaliadores**: A aplicação possui um **motor determinístico de alta fidelidade integrado ao Mastra**, permitindo testar e avaliar **100% dos fluxos, telas, transições de estado e decisões sem necessidade de cadastrar chaves pagas de API de LLM**. Se desejar plugar OpenAI, Gemini ou Anthropic, basta preencher `OPENAI_API_KEY` ou `GEMINI_API_KEY` no seu `.env.local`.
+> **Ambiente Demonstrativo**: A aplicação possui um **motor determinístico integrado**, permitindo testar e avaliar **100% dos fluxos, telas, transições de estado e decisões de IA sem necessidade de cadastrar chaves pagas de API de LLM**. Se desejar plugar OpenAI, Gemini ou Anthropic, basta preencher `OPENAI_API_KEY` ou `GEMINI_API_KEY` no seu `.env.local`.
 
 ---
 
